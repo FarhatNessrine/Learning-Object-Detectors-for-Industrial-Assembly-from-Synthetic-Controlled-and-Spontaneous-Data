@@ -1,6 +1,6 @@
 # Learning-Object-Detectors-for-Industrial-Assembly-from-Synthetic-Controlled-and-Spontaneous-Data
 
-This repository accompanies the paper **"Learning-Object-Detectors-for-Industrial-Assembly-from-Synthetic-Controlled-and-Spontaneous-Data"**. It provides a reproducible pipeline for training and evaluating object detection models using a dataset of real and synthetic images from tidal turbine assembly operations.
+This repository accompanies the paper **"Detectors-for-Industrial-Assembly"**. It provides a reproducible pipeline for training and evaluating object detection models using a dataset of real and synthetic images from tidal turbine assembly operations.
 
 Key components of the repository include:
 - Scripts for training, evaluation, and inference of object detection models (YOLO-based)
