@@ -44,6 +44,28 @@ The TTA Dataset (Tidal Turbine Assembly) includes:
 
 ⚠️ Due to anonymization requirements, dataset links will be released publicly available for the camera-ready version.
 
+## 📦 Models Checkpoints
+To ensure reproducibility and maintain anonymity during the review process, all pretrained and finetuned models used in the **TTA-S2R (Tidal Turbine Assembly – Sim2Real)** study are hosted on an **anonymous Hugging Face repository**.  
+
+These models correspond to the final checkpoints for each training configuration used in the experiments — spanning controlled real data, synthetic domain-randomized data, and synthetic + controlled fine-tuning.  
+
+| Model | Training Regime | Description | Download |
+|--------|------------------|-------------|-----------|
+| **YOLOv8s** | Pretrained YOLOv8s | Baseline prtetrained on COCO dataset | [Download](https://huggingface.co/NeFr25/TTA-Sim2Real-YOLO-Models/resolve/main/weights/yolov8s.pt) |
+| **YOLOv9s** | Pretrained YOLOv9s | Baseline prtetrained on COCO dataset | [Download](https://huggingface.co/NeFr25/TTA-Sim2Real-YOLO-Models/resolve/main/weights/yolov9s.pt) |
+| **YOLO-Worldv2** | Pretrained YOLO-Worldv2 | Baseline prtetrained on Objects365 dataset and others  | [Download](https://huggingface.co/NeFr25/TTA-Sim2Real-YOLO-Models/resolve/main/weights/yolov8m-worldv2.pt) |
+| **YOLOv8** | Controlled only | Baseline trained on controlled real data | [Download](https://huggingface.co/NeFr25/TTA-Sim2Real-YOLO-Models/resolve/main/weights/best_model_8_controlled.pt) |
+| **YOLOv8** | Synthetic only | Trained purely on synthetic domain-randomized images | [Download](https://huggingface.co/NeFr25/TTA-Sim2Real-YOLO-Models/resolve/main/weights/best_model_8_synthetic.pt) |
+| **YOLOv8** | Synthetic + Controlled | Fine-tuned mixed-domain model | [Download](https://huggingface.co/NeFr25/TTA-Sim2Real-YOLO-Models/resolve/main/weights/best_model_8_synthetic_controlled.pt) |
+| **YOLOv9** | Controlled only | Baseline trained on controlled real data | [Download](https://huggingface.co/NeFr25/TTA-Sim2Real-YOLO-Models/resolve/main/weights/best_model_9_controlled.pt) |
+| **YOLOv9** | Synthetic only | Trained purely on synthetic data | [Download](https://huggingface.co/NeFr25/TTA-Sim2Real-YOLO-Models/resolve/main/weights/best_model_9_synthetic.pt) |
+| **YOLOv9** | Synthetic + Controlled | Fine-tuned mixed-domain model | [Download](https://huggingface.co/NeFr25/TTA-Sim2Real-YOLO-Models/resolve/main/weights/best_model_9_synthetic_controlled.pt) |
+| **YOLO-World** | Controlled only | Trained on controlled real data with text-prompt capability | [Download](https://huggingface.co/NeFr25/TTA-Sim2Real-YOLO-Models/resolve/main/weights/best_model_yoloworld_controlled.pt) |
+| **YOLO-World** | Synthetic only | Trained on synthetic data using text-based generalization | [Download](https://huggingface.co/NeFr25/TTA-Sim2Real-YOLO-Models/resolve/main/weights/best_model_yoloworld_synthetic.pt) |
+| **YOLO-World** | Synthetic + Controlled | Best-performing model combining both sources | [Download](https://huggingface.co/NeFr25/TTA-Sim2Real-YOLO-Models/resolve/main/weights/best_model_yoloworld_synthetic_controlled.pt) |
+
+---
+
 🚀 Training
 
 Train YOLO-based detectors using the provided configuration files:
