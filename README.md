@@ -51,18 +51,24 @@ These models correspond to the final checkpoints for each training configuration
 
 | Model | Training Regime | Description | Download |
 |--------|------------------|-------------|-----------|
-| **YOLOv8s** | Pretrained YOLOv8s | Baseline prtetrained on COCO dataset | [Download](https://huggingface.co/NeFr25/TTA-Sim2Real-YOLO-Models/resolve/main/weights/yolov8s.pt) |
-| **YOLOv9s** | Pretrained YOLOv9s | Baseline prtetrained on COCO dataset | [Download](https://huggingface.co/NeFr25/TTA-Sim2Real-YOLO-Models/resolve/main/weights/yolov9s.pt) |
-| **YOLO-Worldv2** | Pretrained YOLO-Worldv2 | Baseline prtetrained on Objects365 dataset and others  | [Download](https://huggingface.co/NeFr25/TTA-Sim2Real-YOLO-Models/resolve/main/weights/yolov8m-worldv2.pt) |
-| **YOLOv8** | Controlled only | Baseline trained on controlled real data | [Download](https://huggingface.co/NeFr25/TTA-Sim2Real-YOLO-Models/resolve/main/weights/best_model_8_controlled.pt) |
-| **YOLOv8** | Synthetic only | Trained purely on synthetic domain-randomized images | [Download](https://huggingface.co/NeFr25/TTA-Sim2Real-YOLO-Models/resolve/main/weights/best_model_8_synthetic.pt) |
-| **YOLOv8** | Synthetic + Controlled | Fine-tuned mixed-domain model | [Download](https://huggingface.co/NeFr25/TTA-Sim2Real-YOLO-Models/resolve/main/weights/best_model_8_synthetic_controlled.pt) |
-| **YOLOv9** | Controlled only | Baseline trained on controlled real data | [Download](https://huggingface.co/NeFr25/TTA-Sim2Real-YOLO-Models/resolve/main/weights/best_model_9_controlled.pt) |
-| **YOLOv9** | Synthetic only | Trained purely on synthetic data | [Download](https://huggingface.co/NeFr25/TTA-Sim2Real-YOLO-Models/resolve/main/weights/best_model_9_synthetic.pt) |
-| **YOLOv9** | Synthetic + Controlled | Fine-tuned mixed-domain model | [Download](https://huggingface.co/NeFr25/TTA-Sim2Real-YOLO-Models/resolve/main/weights/best_model_9_synthetic_controlled.pt) |
-| **YOLO-World** | Controlled only | Trained on controlled real data with text-prompt capability | [Download](https://huggingface.co/NeFr25/TTA-Sim2Real-YOLO-Models/resolve/main/weights/best_model_yoloworld_controlled.pt) |
-| **YOLO-World** | Synthetic only | Trained on synthetic data using text-based generalization | [Download](https://huggingface.co/NeFr25/TTA-Sim2Real-YOLO-Models/resolve/main/weights/best_model_yoloworld_synthetic.pt) |
-| **YOLO-World** | Synthetic + Controlled | Best-performing model combining both sources | [Download](https://huggingface.co/NeFr25/TTA-Sim2Real-YOLO-Models/resolve/main/weights/best_model_yoloworld_synthetic_controlled.pt) |
+| **YOLOv8s** | Pretrained YOLOv8s | Baseline prtetrained on COCO dataset | [Download](https://huggingface.co/user/TTA-Sim2Real-YOLO-Models/resolve/main/weights/yolov8s.pt) |
+| **YOLOv9s** | Pretrained YOLOv9s | Baseline prtetrained on COCO dataset | [Download](https://huggingface.co/user/TTA-Sim2Real-YOLO-Models/resolve/main/weights/yolov9s.pt) |
+| **YOLO-Worldv2** | Pretrained YOLO-Worldv2 | Baseline prtetrained on Objects365 dataset and others  | [Download](https://huggingface.co/user/TTA-Sim2Real-YOLO-Models/resolve/main/weights/yolov8m-worldv2.pt) |
+| **YOLOv8** | Controlled only | Baseline trained on controlled real data | [Download](https://huggingface.co/user/TTA-Sim2Real-YOLO-Models/resolve/main/weights/best_model_8_controlled.pt) |
+| **YOLOv8** | Synthetic only | Trained purely on synthetic domain-randomized images | [Download](https://huggingface.co/user/TTA-Sim2Real-YOLO-Models/resolve/main/weights/best_model_8_synthetic.pt) |
+| **YOLOv8** | Synthetic + Controlled | Fine-tuned mixed-domain model | [Download](https://huggingface.co/user/TTA-Sim2Real-YOLO-Models/resolve/main/weights/best_model_8_synthetic_controlled.pt) |
+| **YOLOv9** | Controlled only | Baseline trained on controlled real data | [Download](https://huggingface.co/user/TTA-Sim2Real-YOLO-Models/resolve/main/weights/best_model_9_controlled.pt) |
+| **YOLOv9** | Synthetic only | Trained purely on synthetic data | [Download](https://huggingface.co/user/TTA-Sim2Real-YOLO-Models/resolve/main/weights/best_model_9_synthetic.pt) |
+| **YOLOv9** | Synthetic + Controlled | Fine-tuned mixed-domain model | [Download](https://huggingface.co/user/TTA-Sim2Real-YOLO-Models/resolve/main/weights/best_model_9_synthetic_controlled.pt) |
+| **YOLO-World** | Controlled only | Trained on controlled real data with text-prompt capability | [Download](https://huggingface.co/user/TTA-Sim2Real-YOLO-Models/resolve/main/weights/best_model_yoloworld_controlled.pt) |
+| **YOLO-World** | Synthetic only | Trained on synthetic data using text-based generalization | [Download](https://huggingface.co/user/TTA-Sim2Real-YOLO-Models/resolve/main/weights/best_model_yoloworld_synthetic.pt) |
+| **YOLO-World** | Synthetic + Controlled | Best-performing model combining both sources | [Download](https://huggingface.co/user/TTA-Sim2Real-YOLO-Models/resolve/main/weights/best_model_yoloworld_synthetic_controlled.pt) |
+
+
+| Model | Description | Download |
+|-------|-------------|----------|
+| YOLO-World-L | Full model trained on TTA-Sim2Real | [Download](https://huggingface.co/your-username/tta-sim2real-yoloworld/resolve/main/yoloworld_l.pt) |
+| YOLO-World-S | Lightweight version for edge deployment | [Download](https://huggingface.co/your-username/tta-sim2real-yoloworld/resolve/main/yoloworld_s.pt) |
 
 ---
 
